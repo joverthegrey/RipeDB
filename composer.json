@@ -1,0 +1,20 @@
+{
+    "name": "jover/ripe-db-query",
+    "version" : "0.1.0",
+    "description": "Simple wrapper for Ripe DB RESTlike search queries, it returns a SimpleXMLElement",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joost Vermeulen",
+            "email": "joost@jover.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "zendframework/zend-http": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {"RipeDB\\": "src/"}
+    }
+}
